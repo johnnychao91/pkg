@@ -1,5 +1,5 @@
-csvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/cp_list/lugia_cp.csv';
-const optionsCsvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/pk_name_zh.csv';
+csvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/cp_list/bulbasaur_cp.csv';
+const optionsCsvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/pk_names.csv';
 
 async function fetchOptions() {
     try {
@@ -12,13 +12,13 @@ async function fetchOptions() {
 }
 
 function populateDropdown(options) {
-    const dropdown = document.getElementById('pkList');
+    const dropdown = document.getElementById('pkOptions');
     dropdown.innerHTML = ''; // 清空之前的選項
 
     options.forEach(option => {
         const optionElement = document.createElement('option');
         optionElement.value = option[0];
-        optionElement.textContent = option[0] + " " + option[1];
+        optionElement.textContent = option[2] + " " + option[1];
         dropdown.appendChild(optionElement);
     });
 }
@@ -30,6 +30,16 @@ async function initDropdown() {
 }
 
 document.addEventListener('DOMContentLoaded', initDropdown);
+
+
+
+const selectPokemon = document.getElementById("pkOptions");
+
+selectPokemon.addEventListener("change", function() {
+    const pokemonID = selectPokemon.value;
+    csvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/cp_list/' + pokemonID + '_cp.csv';
+
+});
 
 async function fetchData() {
     try {

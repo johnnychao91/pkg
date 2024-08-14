@@ -81,20 +81,20 @@
     <h1>Perfect Radar</h1>
 
     <div class="controls">
-        <label for="pkList">Pokémon :</label>
-        <select id="pkList"></select>
+        <select id="pkOptions"></select>
     </div>
 
-    <div class="controls"></div>
+    <div class="controls">
         <label for="cpValue">CP :</label>
         <input type="number" id="cpValue" placeholder="" min="0" max="9999" oninput="validateInput()">
     </div>
 
     <div class="controls">
         <label for="raidCheckbox">Raid</label>
-        <input type="checkbox" id="raidCheckbox" checked>
+        <input type="checkbox" id="raidCheckbox">
+        <!-- <input type="checkbox" id="raidCheckbox" checked> -->
     </div>
-
+ 
     <div class="controls">
         <button onclick="filterData()">Filter</button>
     </div>
