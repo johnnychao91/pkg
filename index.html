@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>PKG Perfect Radar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 垂直居中 */
+            text-align: center; /* 文字置中 */
+            min-height: 100vh; /* 讓 body 至少佔滿視口高度 */
+            box-sizing: border-box;
+        }
+        h1, h2 {
+            color: #ffcc00;
+        }
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* 控件水平居中 */
+            gap: 10px; /* 增加元素間的間距 */
+            margin-bottom: 20px;
+            flex-wrap: wrap; /* 當內容超過一行時換行 */
+        }
+        input[type="number"], button, input[type="checkbox"] {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            background: linear-gradient(145deg, #333, #444);
+            color: #f0f0f0;
+        }
+        input[type="number"] {
+            width: 100px; /* 設定輸入框寬度 */
+        }
+        button {
+            cursor: pointer;
+            background: linear-gradient(145deg, #ffcc00, #ffaa00);
+            font-size: 16px; /* 增大按鈕文字 */
+            padding: 13px 26px; /* 增大按鈕尺寸 */
+        }
+        input[type="number"]:focus, button:focus, input[type="checkbox"]:focus {
+            outline: none;
+            box-shadow: 0 0 5px #ffcc00;
+        }
+        table {
+            text-align: center;
+            width: 100%;
+            max-width: 800px; /* 限制表格的最大寬度 */
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            background-color: #2a2a2a;
+        }
+        th {
+            background-color: #333333;
+            color: #ffcc00;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #3a3a3a;
+        }
+        tbody tr:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Perfect Radar</h1>
+    <div class="controls">
+        <label for="cpValue">CP :</label>
+        <input type="number" id="cpValue" placeholder="" min="0" max="9999" oninput="validateInput()">
+
+        <label for="raidCheckbox">Raid</label>
+        <input type="checkbox" id="raidCheckbox" checked>
+
+        <button onclick="filterData()">Filter</button>
+    </div>
+
+    <h2>IV Results</h2>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Stamina</th>
+                <th>CP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Filtered results will be displayed here -->
+        </tbody>
+    </table>
+    <footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        &copy; 2024 JieBao | JohnnyChao 
+        <br>
+        <br>
+        Pokémon and Pokémon GO are copyright of The Pokémon Company, Niantic, Inc., and Nintendo. 
+        <br>
+        All trademarked images and names are property of their respective owners, 
+        <br>
+        and any such material is used on this site for educational purposes only. 
+        <br>
+        JieBao has no affiliation with The Pokémon Company, Niantic, Inc., or Nintendo.
+    </footer>
+    <script>
+        const csvUrl = 'data/cp_list/0249.csv';
+
+        async function fetchData() {
+            try {
+                const response = await fetch(csvUrl);
+                const text = await response.text();
+                console.log(text);  // 在控制台中显示CSV文件的内容
+                return text;
+            } catch (error) {
+                console.error('Error fetching CSV:', error);
+            }
+        }
+        function parseCSV(text) {
+            // 處理Windows 和 Unix/Linux 系统的換行符
+            const rows = text.split(/\r?\n/).filter(row => row.trim() !== '');
+            const data = rows.map(row => row.split(','));
+            console.log(data);
+            return data;
+        }
+
+        function validateInput() {
+            const cpInput = document.getElementById('cpValue');
+            if (cpInput.value.length > 4) {
+                cpInput.value = cpInput.value.slice(0, 4);
+            }
+        }
+
+        async function filterData() {
+            const cpValue = document.getElementById('cpValue').value;
+            const raidChecked = document.getElementById('raidCheckbox').checked;
+
+            if (!cpValue) {
+                alert('Please enter a CP value.');
+                return;
+            }
+
+            const csvText = await fetchData();
+            const data = parseCSV(csvText);
+            const header = data.shift(); // Remove the header
+
+            const filteredData = data.filter(row => {
+                const level = parseFloat(row[0]);
+                const cp = row[4];
+
+                if (raidChecked) {
+                    return (level === 20 || level === 25) && cp == cpValue;
+                } else {
+                    return cp == cpValue;
+                }
+            });
+
+            displayResults(filteredData);
+        }
+
+        function displayResults(data) {
+            const tableBody = document.getElementById('resultsTable').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = ''; // Clear previous results
+
+            data.forEach(row => {
+                const newRow = tableBody.insertRow();
+                row.forEach(cell => {
+                    const newCell = newRow.insertCell();
+                    newCell.textContent = cell;
+                });
+            });
+
+            if (data.length === 0) {
+                const newRow = tableBody.insertRow();
+                const newCell = newRow.insertCell();
+                newCell.colSpan = 5;
+                newCell.textContent = 'No results found.';
+            }
+        }
+    </script>
+</body>
+</html>

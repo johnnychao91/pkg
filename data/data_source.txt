@@ -1,0 +1,7 @@
+pokemon.json
+https://github.com/pvpoke/pvpoke/blob/master/src/data/gamemaster/pokemon.json
+
+
+moves.json
+https://github.com/pvpoke/pvpoke/blob/master/src/data/gamemaster/moves.json
+

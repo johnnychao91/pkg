@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKG Perfect Radar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Perfect Radar</h1>
+    <label for="cpValue">Enter CP Value:</label>
+    <input type="number" id="cpValue" placeholder="Enter CP value">
+
+    <button onclick="filterData()">Filter</button>
+
+    <label for="raidCheckbox">Raid</label>
+    <input type="checkbox" id="raidCheckbox" checked>
+
+    <h2>Results:</h2>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Stamina</th>
+                <th>CP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Filtered results will be displayed here -->
+        </tbody>
+    </table>
+
+    <script>
+        const csvUrl = 'https://jie-bao.online/pkgdata/0249_cp.csv';
+
+        async function fetchData() {
+            const response = await fetch(csvUrl);
+            const text = await response.text();
+            return text;
+        }
+
+        function parseCSV(text) {
+            const rows = text.split('\n').filter(row => row.trim() !== '');
+            const data = rows.map(row => row.split(','));
+            return data;
+        }
+
+        async function filterData() {
+            const cpValue = document.getElementById('cpValue').value;
+            const raidChecked = document.getElementById('raidCheckbox').checked;
+
+            if (!cpValue) {
+                alert('Please enter a CP value.');
+                return;
+            }
+
+            const csvText = await fetchData();
+            const data = parseCSV(csvText);
+            const header = data.shift(); // Remove the header
+
+            const filteredData = data.filter(row => {
+                const level = parseFloat(row[0]);
+                const cp = row[4];
+
+                if (raidChecked) {
+                    return (level === 20 || level === 25) && cp == cpValue;
+                } else {
+                    return cp == cpValue;
+                }
+            });
+
+            displayResults(filteredData);
+        }
+
+        function displayResults(data) {
+            const tableBody = document.getElementById('resultsTable').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = ''; // Clear previous results
+
+            data.forEach(row => {
+                const newRow = tableBody.insertRow();
+                row.forEach(cell => {
+                    const newCell = newRow.insertCell();
+                    newCell.textContent = cell;
+                });
+            });
+
+            if (data.length === 0) {
+                const newRow = tableBody.insertRow();
+                const newCell = newRow.insertCell();
+                newCell.colSpan = 5;
+                newCell.textContent = 'No results found.';
+            }
+        }
+    </script>
+</body>
+</html>
