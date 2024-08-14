@@ -1,4 +1,35 @@
 csvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/cp_list/lugia_cp.csv';
+const optionsCsvUrl = 'https://raw.githubusercontent.com/johnnychao91/pkg/main/data/pk_name_zh.csv';
+
+async function fetchOptions() {
+    try {
+        const response = await fetch(optionsCsvUrl);
+        const text = await response.text();
+        return parseCSV(text);
+    } catch (error) {
+        console.error('Error fetching options CSV:', error);
+    }
+}
+
+function populateDropdown(options) {
+    const dropdown = document.getElementById('pkList');
+    dropdown.innerHTML = ''; // 清空之前的選項
+
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option[0];
+        optionElement.textContent = option[0] + " " + option[1];
+        dropdown.appendChild(optionElement);
+    });
+}
+
+async function initDropdown() {
+    const optionsData = await fetchOptions();
+    optionsData.shift(); // 删除标题行
+    populateDropdown(optionsData);
+}
+
+document.addEventListener('DOMContentLoaded', initDropdown);
 
 async function fetchData() {
     try {

@@ -79,13 +79,23 @@
 </head>
 <body>
     <h1>Perfect Radar</h1>
+
     <div class="controls">
+        <label for="pkList">Pokémon :</label>
+        <select id="pkList"></select>
+    </div>
+
+    <div class="controls"></div>
         <label for="cpValue">CP :</label>
         <input type="number" id="cpValue" placeholder="" min="0" max="9999" oninput="validateInput()">
+    </div>
 
+    <div class="controls">
         <label for="raidCheckbox">Raid</label>
         <input type="checkbox" id="raidCheckbox" checked>
+    </div>
 
+    <div class="controls">
         <button onclick="filterData()">Filter</button>
     </div>
 
@@ -116,6 +126,8 @@
         and any such material is used on this site for educational purposes only. 
         <br>
         JieBao has no affiliation with The Pokémon Company, Niantic, Inc., or Nintendo.
+        <br>
+        <br>
     </footer>
     <script src="perfect_radar.js"></script>
 </body>

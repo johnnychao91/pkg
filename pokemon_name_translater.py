@@ -7,23 +7,24 @@ with open('./data/pokemon.json', 'r', encoding='utf-8') as file:
     pokemon_data = json.load(file)
 
 
-filename = './data/pk_name.csv'
+filename = './data/pk_names.csv'
 with open(filename, mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["name"])
+    writer.writerow(['nameID', "nameEN"])
                         
     for pokemon in pokemon_data:
         dex = pokemon["dex"]
         attack = pokemon["baseStats"]["atk"]
         defense = pokemon["baseStats"]["def"]
         stamina = pokemon["baseStats"]["hp"]
-        specie = pokemon["speciesId"]
-        writer.writerow([specie])
+        speciesId = pokemon["speciesId"]
+        speciesName = pokemon["speciesName"]
+        writer.writerow([speciesId, speciesName])
 
 print(f"'{filename}' done.")
 
 
-filename = './data/pk_name.csv'
+filename = './data/pk_names.csv'
 with open(filename, mode='r', encoding='utf-8') as file:
     csv_reader = csv.DictReader(file)
     pk_name = list(csv_reader)
@@ -38,7 +39,7 @@ for pokemon in pokemon_name:
     pk_name_dict[pokemon['name'].lower().replace(". ","").replace(" ","").replace("-","").replace("_","").replace("'","")] = pokemon['nameZH']
     
 for pokemon in pk_name:
-    pokemon['nameZH'] = pokemon['name']
+    pokemon['nameZH'] = pokemon['nameID']
     
     pokemon['nameZH'] = pokemon['nameZH'].replace("pikachu_flying", "皮卡丘.飛翔")  
     pokemon['nameZH'] = pokemon['nameZH'].replace("nidoran_female", "尼多蘭")
@@ -198,10 +199,10 @@ for pokemon in pk_name:
             break
     pokemon['nameZH'] = pokemon['nameZH'].replace(".", " ")
 
-filename = './data/pk_name_zh.csv'
+filename = './data/pk_names.csv'
 # 将修改后的数据写入新的CSV文件
 with open(filename, mode='w', newline='', encoding='utf-8') as file:
-    fieldnames = ['name', 'nameZH']  # 确保字段名称与原CSV文件一致
+    fieldnames = ['nameID', "nameEN", 'nameZH']  # 确保字段名称与原CSV文件一致
     csv_writer = csv.DictWriter(file, fieldnames=fieldnames)
     
     csv_writer.writeheader()  # 写入表头
