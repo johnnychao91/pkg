@@ -33,6 +33,8 @@ def calculate_cp(base_attack, individual_attack, base_defense, individual_defens
     if cp_multiplier == "等級無效":
         return cp_multiplier
     cp = (base_attack + individual_attack) * ((base_defense + individual_defense) ** 0.5) * ((base_stamina + individual_stamina) ** 0.5) * (cp_multiplier ** 2) / 10
+    if cp < 10:
+        cp = 10
     return int(cp)
 
 # 輸入各個參數
@@ -54,9 +56,9 @@ def generate_csv(base_attack, base_defense, base_stamina, filename):
         writer.writerow(["level", "attack", "defense", "stamina", "cp"])
         
         for level in levels:
-            for attack in range(6, 16):
-                for defense in range(6, 16):
-                    for stamina in range(6, 16):
+            for attack in range(0, 16):
+                for defense in range(0, 16):
+                    for stamina in range(0, 16):
                         cp = calculate_cp(base_attack, attack, base_defense, defense, base_stamina, stamina, level)
                         if cp is not None:
                             writer.writerow([level, attack, defense, stamina, cp])
