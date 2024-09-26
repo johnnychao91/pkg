@@ -40,12 +40,12 @@ pidgeot_mega,Pidgeot (Mega),大比鳥 超級
 pidgeot_shadow,Pidgeot (Shadow),大比鳥 暗影
 rattata,Rattata,小拉達
 rattata_alolan,Rattata (Alolan),小拉達 阿羅拉
-rattata_shadow,Rattata (Shadow),小拉達 暗影
 rattata_alolan_shadow,Rattata (Alolan) (Shadow),小拉達 阿羅拉 暗影
+rattata_shadow,Rattata (Shadow),小拉達 暗影
 raticate,Raticate,拉達
 raticate_alolan,Raticate (Alolan),拉達 阿羅拉
-raticate_shadow,Raticate (Shadow),拉達 暗影
 raticate_alolan_shadow,Raticate (Alolan) (Shadow),拉達 阿羅拉 暗影
+raticate_shadow,Raticate (Shadow),拉達 暗影
 spearow,Spearow,烈雀
 fearow,Fearow,大嘴雀
 ekans,Ekans,阿柏蛇
@@ -65,12 +65,12 @@ raichu,Raichu,雷丘
 raichu_alolan,Raichu (Alolan),雷丘 阿羅拉
 sandshrew,Sandshrew,穿山鼠
 sandshrew_alolan,Sandshrew (Alolan),穿山鼠 阿羅拉
-sandshrew_shadow,Sandshrew (Shadow),穿山鼠 暗影
 sandshrew_alolan_shadow,Sandshrew (Alolan) (Shadow),穿山鼠 阿羅拉 暗影
+sandshrew_shadow,Sandshrew (Shadow),穿山鼠 暗影
 sandslash,Sandslash,穿山王
 sandslash_alolan,Sandslash (Alolan),穿山王 阿羅拉
-sandslash_shadow,Sandslash (Shadow),穿山王 暗影
 sandslash_alolan_shadow,Sandslash (Alolan) (Shadow),穿山王 阿羅拉 暗影
+sandslash_shadow,Sandslash (Shadow),穿山王 暗影
 nidoran_female,Nidoran Female,尼多蘭
 nidoran_female_shadow,Nidoran Female (Shadow),尼多蘭 暗影
 nidorina,Nidorina,尼多娜
@@ -87,12 +87,12 @@ clefairy,Clefairy,皮皮
 clefable,Clefable,皮可西
 vulpix,Vulpix,六尾
 vulpix_alolan,Vulpix (Alolan),六尾 阿羅拉
-vulpix_shadow,Vulpix (Shadow),六尾 暗影
 vulpix_alolan_shadow,Vulpix (Alolan) (Shadow),六尾 阿羅拉 暗影
+vulpix_shadow,Vulpix (Shadow),六尾 暗影
 ninetales,Ninetales,九尾
 ninetales_alolan,Ninetales (Alolan),九尾 阿羅拉
-ninetales_shadow,Ninetales (Shadow),九尾 暗影
 ninetales_alolan_shadow,Ninetales (Alolan) (Shadow),九尾 阿羅拉 暗影
+ninetales_shadow,Ninetales (Shadow),九尾 暗影
 jigglypuff,Jigglypuff,胖丁
 wigglytuff,Wigglytuff,胖可丁
 zubat,Zubat,超音蝠
@@ -113,12 +113,12 @@ venomoth,Venomoth,摩魯蛾
 venomoth_shadow,Venomoth (Shadow),摩魯蛾 暗影
 diglett,Diglett,地鼠
 diglett_alolan,Diglett (Alolan),地鼠 阿羅拉
-diglett_shadow,Diglett (Shadow),地鼠 暗影
 diglett_alolan_shadow,Diglett (Alolan) (Shadow),地鼠 阿羅拉 暗影
+diglett_shadow,Diglett (Shadow),地鼠 暗影
 dugtrio,Dugtrio,三地鼠
 dugtrio_alolan,Dugtrio (Alolan),三地鼠 阿羅拉
-dugtrio_shadow,Dugtrio (Shadow),三地鼠 暗影
 dugtrio_alolan_shadow,Dugtrio (Alolan) (Shadow),三地鼠 阿羅拉 暗影
+dugtrio_shadow,Dugtrio (Shadow),三地鼠 暗影
 meowth,Meowth,喵喵
 meowth_alolan,Meowth (Alolan),喵喵 阿羅拉
 meowth_galarian,Meowth (Galarian),喵喵 伽勒爾
@@ -169,16 +169,16 @@ tentacruel,Tentacruel,毒刺水母
 tentacruel_shadow,Tentacruel (Shadow),毒刺水母 暗影
 geodude,Geodude,小拳石
 geodude_alolan,Geodude (Alolan),小拳石 阿羅拉
-geodude_shadow,Geodude (Shadow),小拳石 暗影
 geodude_alolan_shadow,Geodude (Alolan) (Shadow),小拳石 阿羅拉 暗影
+geodude_shadow,Geodude (Shadow),小拳石 暗影
 graveler,Graveler,隆隆石
 graveler_alolan,Graveler (Alolan),隆隆石 阿羅拉
-graveler_shadow,Graveler (Shadow),隆隆石 暗影
 graveler_alolan_shadow,Graveler (Alolan) (Shadow),隆隆石 阿羅拉 暗影
+graveler_shadow,Graveler (Shadow),隆隆石 暗影
 golem,Golem,隆隆岩
 golem_alolan,Golem (Alolan),隆隆岩 阿羅拉
-golem_shadow,Golem (Shadow),隆隆岩 暗影
 golem_alolan_shadow,Golem (Alolan) (Shadow),隆隆岩 阿羅拉 暗影
+golem_shadow,Golem (Shadow),隆隆岩 暗影
 ponyta,Ponyta,小火馬
 ponyta_galarian,Ponyta (Galarian),小火馬 伽勒爾
 rapidash,Rapidash,烈焰馬
@@ -202,12 +202,12 @@ seel,Seel,小海獅
 dewgong,Dewgong,白海獅
 grimer,Grimer,臭泥
 grimer_alolan,Grimer (Alolan),臭泥 阿羅拉
-grimer_shadow,Grimer (Shadow),臭泥 暗影
 grimer_alolan_shadow,Grimer (Alolan) (Shadow),臭泥 阿羅拉 暗影
+grimer_shadow,Grimer (Shadow),臭泥 暗影
 muk,Muk,臭臭泥
 muk_alolan,Muk (Alolan),臭臭泥 阿羅拉
-muk_shadow,Muk (Shadow),臭臭泥 暗影
 muk_alolan_shadow,Muk (Alolan) (Shadow),臭臭泥 阿羅拉 暗影
+muk_shadow,Muk (Shadow),臭臭泥 暗影
 shellder,Shellder,大舌貝
 shellder_shadow,Shellder (Shadow),大舌貝 暗影
 cloyster,Cloyster,刺甲貝
@@ -237,14 +237,14 @@ exeggcute,Exeggcute,蛋蛋
 exeggcute_shadow,Exeggcute (Shadow),蛋蛋 暗影
 exeggutor,Exeggutor,椰蛋樹
 exeggutor_alolan,Exeggutor (Alolan),椰蛋樹 阿羅拉
-exeggutor_shadow,Exeggutor (Shadow),椰蛋樹 暗影
 exeggutor_alolan_shadow,Exeggutor (Alolan) (Shadow),椰蛋樹 阿羅拉 暗影
+exeggutor_shadow,Exeggutor (Shadow),椰蛋樹 暗影
 cubone,Cubone,卡拉卡拉
 cubone_shadow,Cubone (Shadow),卡拉卡拉 暗影
 marowak,Marowak,嘎啦嘎啦
 marowak_alolan,Marowak (Alolan),嘎啦嘎啦 阿羅拉
-marowak_shadow,Marowak (Shadow),嘎啦嘎啦 暗影
 marowak_alolan_shadow,Marowak (Alolan) (Shadow),嘎啦嘎啦 阿羅拉 暗影
+marowak_shadow,Marowak (Shadow),嘎啦嘎啦 暗影
 hitmonlee,Hitmonlee,飛腿郎
 hitmonlee_shadow,Hitmonlee (Shadow),飛腿郎 暗影
 hitmonchan,Hitmonchan,快拳郎
@@ -442,8 +442,8 @@ heracross,Heracross,赫拉克羅斯
 heracross_mega,Heracross (Mega),赫拉克羅斯 超級
 sneasel,Sneasel,狃拉
 sneasel_hisuian,Sneasel (Hisuian),狃拉 洗翠
-sneasel_shadow,Sneasel (Shadow),狃拉 暗影
 sneasel_hisuian_shadow,Sneasel (Hisuian) (Shadow),狃拉 洗翠 暗影
+sneasel_shadow,Sneasel (Shadow),狃拉 暗影
 teddiursa,Teddiursa,熊寶寶
 teddiursa_shadow,Teddiursa (Shadow),熊寶寶 暗影
 ursaring,Ursaring,圈圈熊
@@ -455,6 +455,7 @@ swinub_shadow,Swinub (Shadow),小山豬 暗影
 piloswine,Piloswine,長毛豬
 piloswine_shadow,Piloswine (Shadow),長毛豬 暗影
 corsola,Corsola,太陽珊瑚
+corsola_galarian,Corsola (Galarian),太陽珊瑚 伽勒爾
 remoraid,Remoraid,鐵炮魚
 octillery,Octillery,章魚桶
 delibird,Delibird,信使鳥
@@ -1020,8 +1021,8 @@ darumaka_shadow,Darumaka (Shadow),火紅不倒翁 暗影
 darmanitan_galarian_zen,Darmanitan (Galarian Zen),達摩狒狒 伽勒爾 達摩模式
 darmanitan_galarian_standard,Darmanitan (Galarian),達摩狒狒 伽勒爾 普通模式
 darmanitan_standard,Darmanitan (Standard),達摩狒狒 普通模式
-darmanitan_zen,Darmanitan (Zen),達摩狒狒 達摩模式
 darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),達摩狒狒 普通模式 暗影
+darmanitan_zen,Darmanitan (Zen),達摩狒狒 達摩模式
 maractus,Maractus,沙鈴仙人掌
 dwebble,Dwebble,石居蟹
 dwebble_shadow,Dwebble (Shadow),石居蟹 暗影
@@ -1564,6 +1565,7 @@ tatsugiri_droopy,Tatsugiri_droopy,米立龍 下垂
 tatsugiri_stretchy,Tatsugiri_stretchy,米立龍 平挺
 annihilape,Annihilape,棄世猴
 clodsire,Clodsire,土王
+clodsiresb,Clodsire,土王sb
 farigiraf,Farigiraf,奇麒麟
 dudunsparce,Dudunsparce,土龍節節
 dudunsparce_three,Dudunsparce_three,土龍節節 三節
