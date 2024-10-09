@@ -22,8 +22,11 @@ blastoise,Blastoise,水箭龜
 blastoise_mega,Blastoise (Mega),水箭龜 超級
 blastoise_shadow,Blastoise (Shadow),水箭龜 暗影
 caterpie,Caterpie,綠毛蟲
+caterpie_shadow,Caterpie (Shadow),綠毛蟲 暗影
 metapod,Metapod,鐵甲蛹
+metapod_shadow,Metapod (Shadow),鐵甲蛹 暗影
 butterfree,Butterfree,巴大蝶
+butterfree_shadow,Butterfree (Shadow),巴大蝶 暗影
 weedle,Weedle,獨角蟲
 weedle_shadow,Weedle (Shadow),獨角蟲 暗影
 kakuna,Kakuna,鐵殼蛹
@@ -131,7 +134,9 @@ psyduck_shadow,Psyduck (Shadow),可達鴨 暗影
 golduck,Golduck,哥達鴨
 golduck_shadow,Golduck (Shadow),哥達鴨 暗影
 mankey,Mankey,猴怪
+mankey_shadow,Mankey (Shadow),猴怪 暗影
 primeape,Primeape,火爆猴
+primeape_shadow,Primeape (Shadow),火爆猴 暗影
 growlithe,Growlithe,卡蒂狗
 growlithe_hisuian,Growlithe (Hisuian),卡蒂狗 洗翠
 growlithe_shadow,Growlithe (Shadow),卡蒂狗 暗影
@@ -254,6 +259,7 @@ koffing,Koffing,瓦斯彈
 koffing_shadow,Koffing (Shadow),瓦斯彈 暗影
 weezing,Weezing,雙彈瓦斯
 weezing_galarian,Weezing (Galarian),雙彈瓦斯 伽勒爾
+weezing_galarian_shadow,Weezing (Galarian) (Shadow),雙彈瓦斯 伽勒爾 暗影
 weezing_shadow,Weezing (Shadow),雙彈瓦斯 暗影
 rhyhorn,Rhyhorn,獨角犀牛
 rhyhorn_shadow,Rhyhorn (Shadow),獨角犀牛 暗影
@@ -532,8 +538,10 @@ mightyena,Mightyena,大狼犬
 mightyena_shadow,Mightyena (Shadow),大狼犬 暗影
 zigzagoon,Zigzagoon,蛇紋熊
 zigzagoon_galarian,Zigzagoon (Galarian),蛇紋熊 伽勒爾
+zigzagoon_galarian_shadow,Zigzagoon (Galarian) (Shadow),蛇紋熊 伽勒爾 暗影
 linoone,Linoone,直衝熊
 linoone_galarian,Linoone (Galarian),直衝熊 伽勒爾
+linoone_galarian_shadow,Linoone (Galarian) (Shadow),直衝熊 伽勒爾 暗影
 wurmple,Wurmple,刺尾蟲
 silcoon,Silcoon,甲殼繭
 beautifly,Beautifly,狩獵鳳蝶
@@ -909,6 +917,7 @@ dialga_origin,Dialga (Origin),帝牙盧卡 起源
 palkia,Palkia,帕路奇亞
 palkia_origin,Palkia (Origin),帕路奇亞 起源
 heatran,Heatran,席多藍恩
+heatran_shadow,Heatran (Shadow),席多藍恩 暗影
 regigigas,Regigigas,雷吉奇卡斯
 regigigas_shadow,Regigigas (Shadow),雷吉奇卡斯 暗影
 giratina_altered,Giratina (Altered),騎拉帝納 別種
@@ -979,8 +988,11 @@ blitzle_shadow,Blitzle (Shadow),斑斑馬 暗影
 zebstrika,Zebstrika,雷電斑馬
 zebstrika_shadow,Zebstrika (Shadow),雷電斑馬 暗影
 roggenrola,Roggenrola,石丸子
+roggenrola_shadow,Roggenrola (Shadow),石丸子 暗影
 boldore,Boldore,地幔岩
+boldore_shadow,Boldore (Shadow),地幔岩 暗影
 gigalith,Gigalith,龐岩怪
+gigalith_shadow,Gigalith (Shadow),龐岩怪 暗影
 woobat,Woobat,滾滾蝙蝠
 swoobat,Swoobat,心蝙蝠
 drilbur,Drilbur,螺釘地鼠
@@ -1005,8 +1017,11 @@ sewaddle,Sewaddle,蟲寶包
 swadloon,Swadloon,寶包繭
 leavanny,Leavanny,保母蟲
 venipede,Venipede,百足蜈蚣
+venipede_shadow,Venipede (Shadow),百足蜈蚣 暗影
 whirlipede,Whirlipede,車輪毬
+whirlipede_shadow,Whirlipede (Shadow),車輪毬 暗影
 scolipede,Scolipede,蜈蚣王
+scolipede_shadow,Scolipede (Shadow),蜈蚣王 暗影
 cottonee,Cottonee,木棉球
 whimsicott,Whimsicott,風妖精
 petilil,Petilil,百合根娃娃
@@ -1071,7 +1086,9 @@ deerling,Deerling,四季鹿
 sawsbuck,Sawsbuck,萌芽鹿
 emolga,Emolga,電飛鼠
 karrablast,Karrablast,蓋蓋蟲
+karrablast_shadow,Karrablast (Shadow),蓋蓋蟲 暗影
 escavalier,Escavalier,騎士蝸牛
+escavalier_shadow,Escavalier (Shadow),騎士蝸牛 暗影
 foongus,Foongus,哎呀球菇
 foongus_shadow,Foongus (Shadow),哎呀球菇 暗影
 amoonguss,Amoonguss,敗露球菇
@@ -1108,7 +1125,9 @@ cubchoo,Cubchoo,噴嚏熊
 beartic,Beartic,凍原熊
 cryogonal,Cryogonal,幾何雪花
 shelmet,Shelmet,小嘴蝸
+shelmet_shadow,Shelmet (Shadow),小嘴蝸 暗影
 accelgor,Accelgor,敏捷蟲
+accelgor_shadow,Accelgor (Shadow),敏捷蟲 暗影
 stunfisk,Stunfisk,泥巴魚
 stunfisk_galarian,Stunfisk (Galarian),泥巴魚 伽勒爾
 mienfoo,Mienfoo,功夫鼬
@@ -1188,7 +1207,8 @@ meowstic_female,Meowstic (Female),超能妙喵 雌性
 meowstic,Meowstic (Male),超能妙喵 雄性
 honedge,Honedge,獨劍鞘
 doublade,Doublade,雙劍鞘
-aegislash,Aegislash,堅盾劍怪
+aegislash_blade,Aegislash (Blade),堅盾劍怪blade
+aegislash_shield,Aegislash (Shield),堅盾劍怪shield
 spritzee,Spritzee,粉香香
 aromatisse,Aromatisse,芳香精
 swirlix,Swirlix,綿綿泡芙
@@ -1417,6 +1437,7 @@ impidimp,Impidimp,搗蛋小妖
 morgrem,Morgrem,詐唬魔
 grimmsnarl,Grimmsnarl,長毛巨魔
 obstagoon,Obstagoon,堵攔熊
+obstagoon_shadow,Obstagoon (Shadow),堵攔熊 暗影
 perrserker,Perrserker,喵頭目
 cursola,Cursola,魔靈珊瑚
 sirfetchd,Sirfetch'd,蔥遊兵
@@ -1435,7 +1456,6 @@ eiscue_noice,Eiscue (Noice),冰砌鵝 解凍頭
 indeedee,Indeedee,愛管侍
 indeedee_female,Indeedee (Female),愛管侍 雌性
 indeedee_male,Indeedee (Male),愛管侍 雄性
-morpeko,Morpeko,莫魯貝可
 morpeko_full_belly,Morpeko (Full Belly),莫魯貝可 滿腹花紋
 morpeko_hangry,Morpeko (Hangry),莫魯貝可 空腹花紋
 cufant,Cufant,銅象
@@ -1564,6 +1584,7 @@ tatsugiri_curly,Tatsugiri_curly,米立龍 上弓
 tatsugiri_droopy,Tatsugiri_droopy,米立龍 下垂
 tatsugiri_stretchy,Tatsugiri_stretchy,米立龍 平挺
 annihilape,Annihilape,棄世猴
+annihilape_shadow,Annihilape (Shadow),棄世猴 暗影
 clodsire,Clodsire,土王
 clodsiresb,Clodsire,土王sb
 farigiraf,Farigiraf,奇麒麟
