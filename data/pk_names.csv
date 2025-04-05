@@ -291,6 +291,9 @@ pinsir,Pinsir,凱羅斯
 pinsir_mega,Pinsir (Mega),凱羅斯 超級
 pinsir_shadow,Pinsir (Shadow),凱羅斯 暗影
 tauros,Tauros,肯泰羅
+tauros_combat,Tauros (Combat),肯泰羅 鬥戰
+tauros_aqua,Tauros (Aqua),肯泰羅 水瀾
+tauros_blaze,Tauros (Blaze),肯泰羅 火熾
 magikarp,Magikarp,鯉魚王
 magikarp_shadow,Magikarp (Shadow),鯉魚王 暗影
 gyarados,Gyarados,暴鯉龍
@@ -557,7 +560,9 @@ nuzleaf_shadow,Nuzleaf (Shadow),長鼻葉 暗影
 shiftry,Shiftry,狡猾天狗
 shiftry_shadow,Shiftry (Shadow),狡猾天狗 暗影
 taillow,Taillow,傲骨燕
+taillow_shadow,Taillow (Shadow),傲骨燕 暗影
 swellow,Swellow,大王燕
+swellow_shadow,Swellow (Shadow),大王燕 暗影
 wingull,Wingull,長翅鷗
 pelipper,Pelipper,大嘴鷗
 ralts,Ralts,拉魯拉絲
@@ -596,8 +601,8 @@ sableye,Sableye,勾魂眼
 sableye_mega,Sableye (Mega),勾魂眼 超級
 sableye_shadow,Sableye (Shadow),勾魂眼 暗影
 mawile,Mawile,大嘴娃
-mawile_shadow,Mawile (Shadow),大嘴娃 暗影
 mawile_mega,Mawile (Mega),大嘴娃 超級
+mawile_shadow,Mawile (Shadow),大嘴娃 暗影
 aron,Aron,可可多拉
 aron_shadow,Aron (Shadow),可可多拉 暗影
 lairon,Lairon,可多拉
@@ -897,6 +902,7 @@ mamoswine_shadow,Mamoswine (Shadow),象牙豬 暗影
 porygon_z,Porygon-Z,多邊獸z
 porygon_z_shadow,Porygon-Z (Shadow),多邊獸z 暗影
 gallade,Gallade,艾路雷朵
+gallade_mega,Gallade (Mega),艾路雷朵 超級
 gallade_shadow,Gallade (Shadow),艾路雷朵 暗影
 probopass,Probopass,大朝北鼻
 probopass_shadow,Probopass (Shadow),大朝北鼻 暗影
@@ -917,6 +923,7 @@ dialga,Dialga,帝牙盧卡
 dialga_origin,Dialga (Origin),帝牙盧卡 起源
 palkia,Palkia,帕路奇亞
 palkia_origin,Palkia (Origin),帕路奇亞 起源
+palkia_shadow,Palkia (Shadow),帕路奇亞 暗影
 heatran,Heatran,席多藍恩
 heatran_shadow,Heatran (Shadow),席多藍恩 暗影
 regigigas,Regigigas,雷吉奇卡斯
@@ -950,15 +957,24 @@ arceus_steel,Arceus (Steel),阿爾宙斯 鋼
 arceus_water,Arceus (Water),阿爾宙斯 水
 victini,Victini,比克提尼
 snivy,Snivy,藤藤蛇
+snivy_shadow,Snivy (Shadow),藤藤蛇 暗影
 servine,Servine,青藤蛇
+servine_shadow,Servine (Shadow),青藤蛇 暗影
 serperior,Serperior,君主蛇
+serperior_shadow,Serperior (Shadow),君主蛇 暗影
 tepig,Tepig,暖暖豬
+tepig_shadow,Tepig (Shadow),暖暖豬 暗影
 pignite,Pignite,炒炒豬
+pignite_shadow,Pignite (Shadow),炒炒豬 暗影
 emboar,Emboar,炎武王
+emboar_shadow,Emboar (Shadow),炎武王 暗影
 oshawott,Oshawott,水水獺
+oshawott_shadow,Oshawott (Shadow),水水獺 暗影
 dewott,Dewott,雙刃丸
+dewott_shadow,Dewott (Shadow),雙刃丸 暗影
 samurott,Samurott,大劍鬼
 samurott_hisuian,Samurott (Hisuian),大劍鬼 洗翠
+samurott_shadow,Samurott (Shadow),大劍鬼 暗影
 patrat,Patrat,探探鼠
 patrat_shadow,Patrat (Shadow),探探鼠 暗影
 watchog,Watchog,步哨鼠
@@ -1001,6 +1017,7 @@ drilbur_shadow,Drilbur (Shadow),螺釘地鼠 暗影
 excadrill,Excadrill,龍頭地鼠
 excadrill_shadow,Excadrill (Shadow),龍頭地鼠 暗影
 audino,Audino,差不多娃娃
+audino_mega,Audino (Mega),差不多娃娃 超級
 timburr,Timburr,搬運小匠
 timburr_shadow,Timburr (Shadow),搬運小匠 暗影
 gurdurr,Gurdurr,鐵骨土人
@@ -1059,7 +1076,9 @@ archen_shadow,Archen (Shadow),始祖小鳥 暗影
 archeops,Archeops,始祖大鳥
 archeops_shadow,Archeops (Shadow),始祖大鳥 暗影
 trubbish,Trubbish,破破袋
+trubbish_shadow,Trubbish (Shadow),破破袋 暗影
 garbodor,Garbodor,灰塵山
+garbodor_shadow,Garbodor (Shadow),灰塵山 暗影
 zorua,Zorua,索羅亞
 zoroark,Zoroark,索羅亞克
 minccino,Minccino,泡沫栗鼠
@@ -1186,7 +1205,9 @@ froakie,Froakie,呱呱泡蛙
 frogadier,Frogadier,呱頭蛙
 greninja,Greninja,甲賀忍蛙
 bunnelby,Bunnelby,掘掘兔
+bunnelby_shadow,Bunnelby (Shadow),掘掘兔 暗影
 diggersby,Diggersby,掘地兔
+diggersby_shadow,Diggersby (Shadow),掘地兔 暗影
 fletchling,Fletchling,小箭雀
 fletchinder,Fletchinder,火箭雀
 talonflame,Talonflame,烈箭鷹
@@ -1426,11 +1447,7 @@ centiskorch,Centiskorch,焚焰蚣
 clobbopus,Clobbopus,拳拳蛸
 grapploct,Grapploct,八爪武師
 sinistea,Sinistea,來悲茶
-sinistea_antique,Sinistea (Antique),來悲茶 真品
-sinistea_phony,Sinistea (Phony),來悲茶 贗品
 polteageist,Polteageist,怖思壺
-polteageist_antique,Polteageist (Antique),怖思壺 真品
-polteageist_phony,Polteageist (Phony),怖思壺 贗品
 hatenna,Hatenna,迷布莉姆
 hattrem,Hattrem,提布莉姆
 hatterene,Hatterene,布莉姆溫
@@ -1469,10 +1486,8 @@ duraludon,Duraludon,鋁鋼龍
 dreepy,Dreepy,多龍梅西亞
 drakloak,Drakloak,多龍奇
 dragapult,Dragapult,多龍巴魯托
-zacian,Zacian,蒼響
 zacian_crowned_sword,Zacian (Crowned Sword),蒼響 劍之王
 zacian_hero,Zacian (Hero),蒼響 百戰勇者
-zamazenta,Zamazenta,藏瑪然特
 zamazenta_crowned_shield,Zamazenta (Crowned Shield),藏瑪然特 盾之王
 zamazenta_hero,Zamazenta (Hero),藏瑪然特 百戰勇者
 eternatus,Eternatus,無極汰那
