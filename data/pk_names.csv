@@ -291,9 +291,9 @@ pinsir,Pinsir,凱羅斯
 pinsir_mega,Pinsir (Mega),凱羅斯 超級
 pinsir_shadow,Pinsir (Shadow),凱羅斯 暗影
 tauros,Tauros,肯泰羅
-tauros_combat,Tauros (Combat),肯泰羅 鬥戰
 tauros_aqua,Tauros (Aqua),肯泰羅 水瀾
 tauros_blaze,Tauros (Blaze),肯泰羅 火熾
+tauros_combat,Tauros (Combat),肯泰羅 鬥戰
 magikarp,Magikarp,鯉魚王
 magikarp_shadow,Magikarp (Shadow),鯉魚王 暗影
 gyarados,Gyarados,暴鯉龍
@@ -577,8 +577,11 @@ masquerain,Masquerain,雨翅蛾
 shroomish,Shroomish,蘑蘑菇
 breloom,Breloom,斗笠菇
 slakoth,Slakoth,懶人獺
+slakoth_shadow,Slakoth (Shadow),懶人獺 暗影
 vigoroth,Vigoroth,過動猿
+vigoroth_shadow,Vigoroth (Shadow),過動猿 暗影
 slaking,Slaking,請假王
+slaking_shadow,Slaking (Shadow),請假王 暗影
 nincada,Nincada,土居忍士
 ninjask,Ninjask,鐵面忍者
 shedinja,Shedinja,脫殼忍者
@@ -921,6 +924,7 @@ mesprit,Mesprit,艾姆利多
 azelf,Azelf,亞克諾姆
 dialga,Dialga,帝牙盧卡
 dialga_origin,Dialga (Origin),帝牙盧卡 起源
+dialga_shadow,Dialga (Shadow),帝牙盧卡 暗影
 palkia,Palkia,帕路奇亞
 palkia_origin,Palkia (Origin),帕路奇亞 起源
 palkia_shadow,Palkia (Shadow),帕路奇亞 暗影
@@ -1236,7 +1240,9 @@ aromatisse,Aromatisse,芳香精
 swirlix,Swirlix,綿綿泡芙
 slurpuff,Slurpuff,胖甜妮
 inkay,Inkay,好啦魷
+inkay_shadow,Inkay (Shadow),好啦魷 暗影
 malamar,Malamar,烏賊王
+malamar_shadow,Malamar (Shadow),烏賊王 暗影
 binacle,Binacle,龜腳腳
 barbaracle,Barbaracle,龜足巨鎧
 skrelp,Skrelp,垃垃藻
@@ -1246,9 +1252,13 @@ clawitzer,Clawitzer,鋼炮臂蝦
 helioptile,Helioptile,傘電蜥
 heliolisk,Heliolisk,光電傘蜥
 tyrunt,Tyrunt,寶寶暴龍
+tyrunt_shadow,Tyrunt (Shadow),寶寶暴龍 暗影
 tyrantrum,Tyrantrum,怪顎龍
+tyrantrum_shadow,Tyrantrum (Shadow),怪顎龍 暗影
 amaura,Amaura,冰雪龍
+amaura_shadow,Amaura (Shadow),冰雪龍 暗影
 aurorus,Aurorus,冰雪巨龍
+aurorus_shadow,Aurorus (Shadow),冰雪巨龍 暗影
 sylveon,Sylveon,仙子伊布
 hawlucha,Hawlucha,摔角鷹人
 dedenne,Dedenne,咚咚鼠
@@ -1338,6 +1348,7 @@ oranguru,Oranguru,智揮猩
 passimian,Passimian,投擲猴
 wimpod,Wimpod,膽小蟲
 golisopod,Golisopod,具甲武者
+golisopodsh,Golisopod,具甲武者sh
 sandygast,Sandygast,沙丘娃
 palossand,Palossand,噬沙堡爺
 pyukumuku,Pyukumuku,拳海參
@@ -1493,7 +1504,6 @@ zamazenta_hero,Zamazenta (Hero),藏瑪然特 百戰勇者
 eternatus,Eternatus,無極汰那
 eternatus_eternamax,Eternatus (Eternamax),無極汰那 無極巨化
 kubfu,Kubfu,熊徒弟
-urshifu,Urshifu,武道熊師
 urshifu_rapid_strike,Urshifu (Rapid Strike),武道熊師 連擊流
 urshifu_single_strike,Urshifu (Single Strike),武道熊師 一擊流
 zarude,Zarude,薩戮德
