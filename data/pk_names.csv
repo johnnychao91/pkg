@@ -277,7 +277,9 @@ seadra_shadow,Seadra (Shadow),海刺龍 暗影
 goldeen,Goldeen,角金魚
 seaking,Seaking,金魚王
 staryu,Staryu,海星星
+staryu_shadow,Staryu (Shadow),海星星 暗影
 starmie,Starmie,寶石海星
+starmie_shadow,Starmie (Shadow),寶石海星 暗影
 mr_mime,Mr. Mime,魔牆人偶
 mr_mime_galarian,Mr. Mime (Galarian),魔牆人偶 伽勒爾
 scyther,Scyther,飛天螳螂
@@ -933,6 +935,7 @@ heatran_shadow,Heatran (Shadow),席多藍恩 暗影
 regigigas,Regigigas,雷吉奇卡斯
 regigigas_shadow,Regigigas (Shadow),雷吉奇卡斯 暗影
 giratina_altered,Giratina (Altered),騎拉帝納 別種
+giratina_altered_shadow,Giratina (Altered) (Shadow),騎拉帝納 別種 暗影
 giratina_origin,Giratina (Origin),騎拉帝納 起源
 cresselia,Cresselia,克雷色利亞
 cresselia_shadow,Cresselia (Shadow),克雷色利亞 暗影
@@ -1048,6 +1051,7 @@ cottonee,Cottonee,木棉球
 whimsicott,Whimsicott,風妖精
 petilil,Petilil,百合根娃娃
 lilligant,Lilligant,裙兒小姐
+lilligant_hisuian,Lilligant (Hisuian),裙兒小姐 洗翠
 basculin,Basculin,野蠻鱸魚
 sandile,Sandile,黑眼鱷
 krokorok,Krokorok,混混鱷
@@ -1215,8 +1219,11 @@ bunnelby_shadow,Bunnelby (Shadow),掘掘兔 暗影
 diggersby,Diggersby,掘地兔
 diggersby_shadow,Diggersby (Shadow),掘地兔 暗影
 fletchling,Fletchling,小箭雀
+fletchling_shadow,Fletchling (Shadow),小箭雀 暗影
 fletchinder,Fletchinder,火箭雀
+fletchinder_shadow,Fletchinder (Shadow),火箭雀 暗影
 talonflame,Talonflame,烈箭鷹
+talonflame_shadow,Talonflame (Shadow),烈箭鷹 暗影
 scatterbug,Scatterbug,粉蝶蟲
 spewpa,Spewpa,粉蝶蛹
 vivillon,Vivillon,彩粉蝶
@@ -1235,8 +1242,8 @@ meowstic_female,Meowstic (Female),超能妙喵 雌性
 meowstic,Meowstic (Male),超能妙喵 雄性
 honedge,Honedge,獨劍鞘
 doublade,Doublade,雙劍鞘
-aegislash_blade,Aegislash (Blade),堅盾劍怪blade
-aegislash_shield,Aegislash (Shield),堅盾劍怪shield
+aegislash_blade,Aegislash (Blade),堅盾劍怪 刀劍
+aegislash_shield,Aegislash (Shield),堅盾劍怪 盾牌
 spritzee,Spritzee,粉香香
 aromatisse,Aromatisse,芳香精
 swirlix,Swirlix,綿綿泡芙
@@ -1306,13 +1313,19 @@ popplio,Popplio,球球海獅
 brionne,Brionne,花漾海獅
 primarina,Primarina,西獅海壬
 pikipek,Pikipek,小篤兒
+pikipek_shadow,Pikipek (Shadow),小篤兒 暗影
 trumbeak,Trumbeak,喇叭啄鳥
+trumbeak_shadow,Trumbeak (Shadow),喇叭啄鳥 暗影
 toucannon,Toucannon,銃嘴大鳥
+toucannon_shadow,Toucannon (Shadow),銃嘴大鳥 暗影
 yungoos,Yungoos,貓鼬少
 gumshoos,Gumshoos,貓鼬探長
 grubbin,Grubbin,強顎雞母蟲
+grubbin_shadow,Grubbin (Shadow),強顎雞母蟲 暗影
 charjabug,Charjabug,蟲電寶
+charjabug_shadow,Charjabug (Shadow),蟲電寶 暗影
 vikavolt,Vikavolt,鍬農炮蟲
+vikavolt_shadow,Vikavolt (Shadow),鍬農炮蟲 暗影
 crabrawler,Crabrawler,好勝蟹
 crabominable,Crabominable,好勝毛蟹
 oricorio_baile,Oricorio (Baile),花舞鳥 熱辣
@@ -1607,10 +1620,9 @@ cetoddle,Cetoddle,走鯨
 cetitan,Cetitan,浩大鯨
 veluza,Veluza,輕身鱈
 dondozo,Dondozo,吃吼霸
-tatsugiri,Tatsugiri,米立龍
-tatsugiri_curly,Tatsugiri_curly,米立龍 上弓
-tatsugiri_droopy,Tatsugiri_droopy,米立龍 下垂
-tatsugiri_stretchy,Tatsugiri_stretchy,米立龍 平挺
+tatsugiri_curly,Tatsugiri (Curly),米立龍 上弓
+tatsugiri_droopy,Tatsugiri (Droopy),米立龍 下垂
+tatsugiri_stretchy,Tatsugiri (Stretchy),米立龍 平挺
 annihilape,Annihilape,棄世猴
 annihilape_shadow,Annihilape (Shadow),棄世猴 暗影
 clodsire,Clodsire,土王
