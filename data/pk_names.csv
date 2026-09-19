@@ -65,6 +65,8 @@ pikachu_pop_star,Pikachu (Pop Star),皮卡丘 偶像
 pikachu_rock_star,Pikachu (Rock Star),皮卡丘 硬搖滾
 pikachu_shaymin,Pikachu (Shaymin Scarf),皮卡丘 謝米圍巾
 raichu,Raichu,雷丘
+raichu_mega_x,Raichu (Mega X),雷丘 超級x
+raichu_mega_y,Raichu (Mega Y),雷丘 超級y
 raichu_alolan,Raichu (Alolan),雷丘 阿羅拉
 sandshrew,Sandshrew,穿山鼠
 sandshrew_alolan,Sandshrew (Alolan),穿山鼠 阿羅拉
@@ -167,6 +169,7 @@ bellsprout_shadow,Bellsprout (Shadow),喇叭芽 暗影
 weepinbell,Weepinbell,口呆花
 weepinbell_shadow,Weepinbell (Shadow),口呆花 暗影
 victreebel,Victreebel,大食花
+victreebel_mega,Victreebel (Mega),大食花 超級
 victreebel_shadow,Victreebel (Shadow),大食花 暗影
 tentacool,Tentacool,瑪瑙水母
 tentacool_shadow,Tentacool (Shadow),瑪瑙水母 暗影
@@ -186,8 +189,10 @@ golem_alolan_shadow,Golem (Alolan) (Shadow),隆隆岩 阿羅拉 暗影
 golem_shadow,Golem (Shadow),隆隆岩 暗影
 ponyta,Ponyta,小火馬
 ponyta_galarian,Ponyta (Galarian),小火馬 伽勒爾
+ponyta_shadow,Ponyta (Shadow),小火馬 暗影
 rapidash,Rapidash,烈焰馬
 rapidash_galarian,Rapidash (Galarian),烈焰馬 伽勒爾
+rapidash_shadow,Rapidash (Shadow),烈焰馬 暗影
 slowpoke,Slowpoke,呆呆獸
 slowpoke_galarian,Slowpoke (Galarian),呆呆獸 伽勒爾
 slowpoke_shadow,Slowpoke (Shadow),呆呆獸 暗影
@@ -204,7 +209,9 @@ farfetchd_galarian,Farfetch'd (Galarian),大蔥鴨 伽勒爾
 doduo,Doduo,嘟嘟
 dodrio,Dodrio,嘟嘟利
 seel,Seel,小海獅
+seel_shadow,Seel (Shadow),小海獅 暗影
 dewgong,Dewgong,白海獅
+dewgong_shadow,Dewgong (Shadow),白海獅 暗影
 grimer,Grimer,臭泥
 grimer_alolan,Grimer (Alolan),臭泥 阿羅拉
 grimer_alolan_shadow,Grimer (Alolan) (Shadow),臭泥 阿羅拉 暗影
@@ -231,7 +238,9 @@ drowzee_shadow,Drowzee (Shadow),催眠貘 暗影
 hypno,Hypno,引夢貘人
 hypno_shadow,Hypno (Shadow),引夢貘人 暗影
 krabby,Krabby,大鉗蟹
+krabby_shadow,Krabby (Shadow),大鉗蟹 暗影
 kingler,Kingler,巨鉗蟹
+kingler_shadow,Kingler (Shadow),巨鉗蟹 暗影
 voltorb,Voltorb,霹靂電球
 voltorb_hisuian,Voltorb (Hisuian),霹靂電球 洗翠
 voltorb_shadow,Voltorb (Shadow),霹靂電球 暗影
@@ -280,6 +289,7 @@ staryu,Staryu,海星星
 staryu_shadow,Staryu (Shadow),海星星 暗影
 starmie,Starmie,寶石海星
 starmie_shadow,Starmie (Shadow),寶石海星 暗影
+starmie_mega,Starmie (Mega),寶石海星 超級
 mr_mime,Mr. Mime,魔牆人偶
 mr_mime_galarian,Mr. Mime (Galarian),魔牆人偶 伽勒爾
 scyther,Scyther,飛天螳螂
@@ -315,7 +325,9 @@ omanyte_shadow,Omanyte (Shadow),菊石獸 暗影
 omastar,Omastar,多刺菊石獸
 omastar_shadow,Omastar (Shadow),多刺菊石獸 暗影
 kabuto,Kabuto,化石盔
+kabuto_shadow,Kabuto (Shadow),化石盔 暗影
 kabutops,Kabutops,鐮刀盔
+kabutops_shadow,Kabutops (Shadow),鐮刀盔 暗影
 aerodactyl,Aerodactyl,化石翼龍
 aerodactyl_mega,Aerodactyl (Mega),化石翼龍 超級
 aerodactyl_shadow,Aerodactyl (Shadow),化石翼龍 暗影
@@ -335,9 +347,12 @@ dratini_shadow,Dratini (Shadow),迷你龍 暗影
 dragonair,Dragonair,哈克龍
 dragonair_shadow,Dragonair (Shadow),哈克龍 暗影
 dragonite,Dragonite,快龍
+dragonite_mega,Dragonite (Mega),快龍 超級
 dragonite_shadow,Dragonite (Shadow),快龍 暗影
 mewtwo,Mewtwo,超夢
 mewtwo_armored,Mewtwo (Armored),超夢 裝甲
+mewtwo_mega_x,Mewtwo (Mega X),超夢 超級x
+mewtwo_mega_y,Mewtwo (Mega Y),超夢 超級y
 mewtwo_shadow,Mewtwo (Shadow),超夢 暗影
 mew,Mew,夢幻
 chikorita,Chikorita,菊草葉
@@ -362,7 +377,9 @@ feraligatr_shadow,Feraligatr (Shadow),大力鱷 暗影
 sentret,Sentret,尾立
 furret,Furret,大尾立
 hoothoot,Hoothoot,咕咕
+hoothoot_shadow,Hoothoot (Shadow),咕咕 暗影
 noctowl,Noctowl,貓頭夜鷹
+noctowl_shadow,Noctowl (Shadow),貓頭夜鷹 暗影
 ledyba,Ledyba,芭瓢蟲
 ledyba_shadow,Ledyba (Shadow),芭瓢蟲 暗影
 ledian,Ledian,安瓢蟲
@@ -444,6 +461,7 @@ granbull,Granbull,布魯皇
 granbull_shadow,Granbull (Shadow),布魯皇 暗影
 qwilfish,Qwilfish,千針魚
 qwilfish_hisuian,Qwilfish (Hisuian),千針魚 洗翠
+qwilfish_shadow,Qwilfish (Shadow),千針魚 暗影
 scizor,Scizor,巨鉗螳螂
 scizor_mega,Scizor (Mega),巨鉗螳螂 超級
 scizor_shadow,Scizor (Shadow),巨鉗螳螂 暗影
@@ -474,6 +492,7 @@ delibird_shadow,Delibird (Shadow),信使鳥 暗影
 mantine,Mantine,巨翅飛魚
 skarmory,Skarmory,盔甲鳥
 skarmory_shadow,Skarmory (Shadow),盔甲鳥 暗影
+skarmory_mega,Skarmory (Mega),盔甲鳥 超級
 houndour,Houndour,戴魯比
 houndour_shadow,Houndour (Shadow),戴魯比 暗影
 houndoom,Houndoom,黑魯加
@@ -633,6 +652,7 @@ swalot,Swalot,吞食獸
 carvanha,Carvanha,利牙魚
 carvanha_shadow,Carvanha (Shadow),利牙魚 暗影
 sharpedo,Sharpedo,巨牙鯊
+sharpedo_mega,Sharpedo (Mega),巨牙鯊 超級
 sharpedo_shadow,Sharpedo (Shadow),巨牙鯊 暗影
 wailmer,Wailmer,吼吼鯨
 wailmer_shadow,Wailmer (Shadow),吼吼鯨 暗影
@@ -641,6 +661,7 @@ wailord_shadow,Wailord (Shadow),吼鯨王 暗影
 numel,Numel,呆火駝
 numel_shadow,Numel (Shadow),呆火駝 暗影
 camerupt,Camerupt,噴火駝
+camerupt_mega,Camerupt (Mega),噴火駝 超級
 camerupt_shadow,Camerupt (Shadow),噴火駝 暗影
 torkoal,Torkoal,煤炭龜
 spoink,Spoink,跳跳豬
@@ -659,8 +680,10 @@ cacnea_shadow,Cacnea (Shadow),刺球仙人掌 暗影
 cacturne,Cacturne,夢歌仙人掌
 cacturne_shadow,Cacturne (Shadow),夢歌仙人掌 暗影
 swablu,Swablu,青綿鳥
+swablu_shadow,Swablu (Shadow),青綿鳥 暗影
 altaria,Altaria,七夕青鳥
 altaria_mega,Altaria (Mega),七夕青鳥 超級
+altaria_shadow,Altaria (Shadow),七夕青鳥 暗影
 zangoose,Zangoose,貓鼬斬
 seviper,Seviper,飯匙蛇
 lunatone,Lunatone,月石
@@ -674,7 +697,9 @@ corphish_shadow,Corphish (Shadow),龍蝦小兵 暗影
 crawdaunt,Crawdaunt,鐵螯龍蝦
 crawdaunt_shadow,Crawdaunt (Shadow),鐵螯龍蝦 暗影
 baltoy,Baltoy,天秤偶
+baltoy_shadow,Baltoy (Shadow),天秤偶 暗影
 claydol,Claydol,念力土偶
+claydol_shadow,Claydol (Shadow),念力土偶 暗影
 lileep,Lileep,觸手百合
 lileep_shadow,Lileep (Shadow),觸手百合 暗影
 cradily,Cradily,搖籃百合
@@ -684,7 +709,9 @@ anorith_shadow,Anorith (Shadow),太古羽蟲 暗影
 armaldo,Armaldo,太古盔甲
 armaldo_shadow,Armaldo (Shadow),太古盔甲 暗影
 feebas,Feebas,醜醜魚
+feebas_shadow,Feebas (Shadow),醜醜魚 暗影
 milotic,Milotic,美納斯
+milotic_shadow,Milotic (Shadow),美納斯 暗影
 castform,Castform,飄浮泡泡
 castform_rainy,Castform (Rainy),飄浮泡泡 雨水
 castform_snowy,Castform (Snowy),飄浮泡泡 雪雲
@@ -733,6 +760,7 @@ beldum_shadow,Beldum (Shadow),鐵啞鈴 暗影
 metang,Metang,金屬怪
 metang_shadow,Metang (Shadow),金屬怪 暗影
 metagross,Metagross,巨金怪
+metagross_mega,Metagross (Mega),巨金怪 超級
 metagross_shadow,Metagross (Shadow),巨金怪 暗影
 regirock,Regirock,雷吉洛克
 regirock_shadow,Regirock (Shadow),雷吉洛克 暗影
@@ -783,6 +811,7 @@ staravia,Staravia,姆克鳥
 staravia_shadow,Staravia (Shadow),姆克鳥 暗影
 staraptor,Staraptor,姆克鷹
 staraptor_shadow,Staraptor (Shadow),姆克鷹 暗影
+staraptor_mega,Staraptor (Mega),姆克鷹 超級
 bidoof,Bidoof,大牙狸
 bidoof_shadow,Bidoof (Shadow),大牙狸 暗影
 bibarel,Bibarel,大尾狸
@@ -942,6 +971,7 @@ cresselia_shadow,Cresselia (Shadow),克雷色利亞 暗影
 phione,Phione,霏歐納
 manaphy,Manaphy,瑪納霏
 darkrai,Darkrai,達克萊伊
+darkrai_shadow,Darkrai (Shadow),達克萊伊 暗影
 shaymin_land,Shaymin (Land),謝米 陸上
 shaymin_sky,Shaymin (Sky),謝米 天空
 arceus,Arceus,阿爾宙斯
@@ -1074,7 +1104,9 @@ scrafty,Scrafty,頭巾混混
 sigilyph,Sigilyph,象徵鳥
 yamask,Yamask,哭哭面具
 yamask_galarian,Yamask (Galarian),哭哭面具 伽勒爾
+yamask_shadow,Yamask (Shadow),哭哭面具 暗影
 cofagrigus,Cofagrigus,死神棺
+cofagrigus_shadow,Cofagrigus (Shadow),死神棺 暗影
 tirtouga,Tirtouga,原蓋海龜
 tirtouga_shadow,Tirtouga (Shadow),原蓋海龜 暗影
 carracosta,Carracosta,肋骨海龜
@@ -1149,8 +1181,11 @@ lampent_shadow,Lampent (Shadow),燈火幽靈 暗影
 chandelure,Chandelure,水晶燈火靈
 chandelure_shadow,Chandelure (Shadow),水晶燈火靈 暗影
 axew,Axew,牙牙
+axew_shadow,Axew (Shadow),牙牙 暗影
 fraxure,Fraxure,斧牙龍
+fraxure_shadow,Fraxure (Shadow),斧牙龍 暗影
 haxorus,Haxorus,雙斧戰龍
+haxorus_shadow,Haxorus (Shadow),雙斧戰龍 暗影
 cubchoo,Cubchoo,噴嚏熊
 beartic,Beartic,凍原熊
 cryogonal,Cryogonal,幾何雪花
@@ -1178,20 +1213,27 @@ mandibuzz,Mandibuzz,禿鷹娜
 heatmor,Heatmor,熔蟻獸
 durant,Durant,鐵蟻
 deino,Deino,單首龍
+deino_shadow,Deino (Shadow),單首龍 暗影
 zweilous,Zweilous,雙首暴龍
+zweilous_shadow,Zweilous (Shadow),雙首暴龍 暗影
 hydreigon,Hydreigon,三首惡龍
+hydreigon_shadow,Hydreigon (Shadow),三首惡龍 暗影
 larvesta,Larvesta,燃燒蟲
 volcarona,Volcarona,火神蛾
 cobalion,Cobalion,勾帕路翁
 terrakion,Terrakion,代拉基翁
 virizion,Virizion,畢力吉翁
 tornadus_incarnate,Tornadus (Incarnate),龍捲雲 化身
+tornadus_incarnate_shadow,Tornadus (Incarnate) (Shadow),龍捲雲 化身 暗影
 tornadus_therian,Tornadus (Therian),龍捲雲 靈獸
 thundurus_incarnate,Thundurus (Incarnate),雷電雲 化身
+thundurus_incarnate_shadow,Thundurus (Incarnate) (Shadow),雷電雲 化身 暗影
 thundurus_therian,Thundurus (Therian),雷電雲 靈獸
 reshiram,Reshiram,萊希拉姆
+reshiram_shadow,Reshiram (Shadow),萊希拉姆 暗影
 zekrom,Zekrom,捷克羅姆
 landorus_incarnate,Landorus (Incarnate),土地雲 化身
+landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),土地雲 化身 暗影
 landorus_therian,Landorus (Therian),土地雲 靈獸
 kyurem,Kyurem,酋雷姆
 kyurem_black,Kyurem (Black),酋雷姆 焰黑
@@ -1206,14 +1248,26 @@ genesect_chill,Genesect (Chill),蓋諾賽克特 冰凍卡帶
 genesect_douse,Genesect (Douse),蓋諾賽克特 水流卡帶
 genesect_shock,Genesect (Shock),蓋諾賽克特 閃電卡帶
 chespin,Chespin,哈力栗
+chespin_shadow,Chespin (Shadow),哈力栗 暗影
 quilladin,Quilladin,胖胖哈力
+quilladin_shadow,Quilladin (Shadow),胖胖哈力 暗影
 chesnaught,Chesnaught,布里卡隆
+chesnaught_mega,Chesnaught (Mega),布里卡隆 超級
+chesnaught_shadow,Chesnaught (Shadow),布里卡隆 暗影
 fennekin,Fennekin,火狐狸
+fennekin_shadow,Fennekin (Shadow),火狐狸 暗影
 braixen,Braixen,長尾火狐
+braixen_shadow,Braixen (Shadow),長尾火狐 暗影
 delphox,Delphox,妖火紅狐
+delphox_mega,Delphox (Mega),妖火紅狐 超級
+delphox_shadow,Delphox (Shadow),妖火紅狐 暗影
 froakie,Froakie,呱呱泡蛙
+froakie_shadow,Froakie (Shadow),呱呱泡蛙 暗影
 frogadier,Frogadier,呱頭蛙
+frogadier_shadow,Frogadier (Shadow),呱頭蛙 暗影
 greninja,Greninja,甲賀忍蛙
+greninja_mega,Greninja (Mega),甲賀忍蛙 超級
+greninja_shadow,Greninja (Shadow),甲賀忍蛙 暗影
 bunnelby,Bunnelby,掘掘兔
 bunnelby_shadow,Bunnelby (Shadow),掘掘兔 暗影
 diggersby,Diggersby,掘地兔
@@ -1251,6 +1305,7 @@ slurpuff,Slurpuff,胖甜妮
 inkay,Inkay,好啦魷
 inkay_shadow,Inkay (Shadow),好啦魷 暗影
 malamar,Malamar,烏賊王
+malamar_mega,Malamar (Mega),烏賊王 超級
 malamar_shadow,Malamar (Shadow),烏賊王 暗影
 binacle,Binacle,龜腳腳
 barbaracle,Barbaracle,龜足巨鎧
@@ -1259,7 +1314,9 @@ dragalge,Dragalge,毒藻龍
 clauncher,Clauncher,鐵臂槍蝦
 clawitzer,Clawitzer,鋼炮臂蝦
 helioptile,Helioptile,傘電蜥
+helioptile_shadow,Helioptile (Shadow),傘電蜥 暗影
 heliolisk,Heliolisk,光電傘蜥
+heliolisk_shadow,Heliolisk (Shadow),光電傘蜥 暗影
 tyrunt,Tyrunt,寶寶暴龍
 tyrunt_shadow,Tyrunt (Shadow),寶寶暴龍 暗影
 tyrantrum,Tyrantrum,怪顎龍
@@ -1277,7 +1334,9 @@ sliggoo,Sliggoo,黏美兒
 goodra,Goodra,黏美龍
 klefki,Klefki,鑰圈兒
 phantump,Phantump,小木靈
+phantump_shadow,Phantump (Shadow),小木靈 暗影
 trevenant,Trevenant,朽木妖
+trevenant_shadow,Trevenant (Shadow),朽木妖 暗影
 pumpkaboo_average,Pumpkaboo (Average),南瓜精 普通
 pumpkaboo_large,Pumpkaboo (Large),南瓜精 大
 pumpkaboo_small,Pumpkaboo (Small),南瓜精 小
@@ -1290,7 +1349,9 @@ bergmite,Bergmite,冰寶
 avalugg,Avalugg,冰岩怪
 avalugg_hisuian,Avalugg (Hisuian),冰岩怪 洗翠
 noibat,Noibat,嗡蝠
+noibat_shadow,Noibat (Shadow),嗡蝠 暗影
 noivern,Noivern,音波龍
+noivern_shadow,Noivern (Shadow),音波龍 暗影
 xerneas,Xerneas,哲爾尼亞斯
 yveltal,Yveltal,伊裴爾塔爾
 zygarde_10,Zygarde (10% Forme),基格爾德 10%
@@ -1346,15 +1407,20 @@ toxapex,Toxapex,超壞星
 mudbray,Mudbray,泥驢仔
 mudsdale,Mudsdale,重泥挽馬
 dewpider,Dewpider,滴蛛
+dewpider_shadow,Dewpider (Shadow),滴蛛 暗影
 araquanid,Araquanid,滴蛛霸
+araquanid_shadow,Araquanid (Shadow),滴蛛霸 暗影
 fomantis,Fomantis,偽螳草
 lurantis,Lurantis,蘭螳花
 morelull,Morelull,睡睡菇
 shiinotic,Shiinotic,燈罩夜菇
+shiinotic_shadow,Shiinotic (Shadow),燈罩夜菇 暗影
 salandit,Salandit,夜盜火蜥
 salazzle,Salazzle,焰后蜥
 stufful,Stufful,童偶熊
+stufful_shadow,Stufful (Shadow),童偶熊 暗影
 bewear,Bewear,穿著熊
+bewear_shadow,Bewear (Shadow),穿著熊 暗影
 bounsweet,Bounsweet,甜竹竹
 steenee,Steenee,甜舞妮
 tsareena,Tsareena,甜冷美后
@@ -1392,6 +1458,7 @@ komala,Komala,樹枕尾熊
 turtonator,Turtonator,爆焰龜獸
 togedemaru,Togedemaru,托戈德瑪爾
 mimikyu,Mimikyu,謎擬Q
+mimikyu_busted,Mimikyu (Busted),謎擬Q 現形
 bruxish,Bruxish,磨牙彩皮魚
 drampa,Drampa,老翁龍
 dhelmise,Dhelmise,破破舵輪
@@ -1438,8 +1505,11 @@ inteleon,Inteleon,千面避役
 skwovet,Skwovet,貪心栗鼠
 greedent,Greedent,藏飽栗鼠
 rookidee,Rookidee,稚山雀
+rookidee_shadow,Rookidee (Shadow),稚山雀 暗影
 corvisquire,Corvisquire,藍鴉
+corvisquire_shadow,Corvisquire (Shadow),藍鴉 暗影
 corviknight,Corviknight,鋼鎧鴉
+corviknight_shadow,Corviknight (Shadow),鋼鎧鴉 暗影
 blipbug,Blipbug,索偵蟲
 dottler,Dottler,天罩蟲
 orbeetle,Orbeetle,以歐路普
@@ -1462,6 +1532,8 @@ appletun,Appletun,豐蜜龍
 silicobra,Silicobra,沙包蛇
 sandaconda,Sandaconda,沙螺蟒
 cramorant,Cramorant,古月鳥
+cramorant_gulping,Cramorant (Gulping),古月鳥 一口吞
+cramorant_gorging,Cramorant (Gorging),古月鳥 大口吞
 arrokuda,Arrokuda,刺梭魚
 barraskewda,Barraskewda,戽斗尖梭
 toxel,Toxel,毒電嬰
@@ -1490,6 +1562,7 @@ runerigus,Runerigus,死神板
 milcery,Milcery,小仙奶
 alcremie,Alcremie,霜奶仙
 falinks,Falinks,列陣兵
+falinks_mega,Falinks (Mega),列陣兵 超級
 pincurchin,Pincurchin,啪嚓海膽
 snom,Snom,雪吞蟲
 frosmoth,Frosmoth,雪絨蛾
@@ -1497,7 +1570,6 @@ stonjourner,Stonjourner,巨石丁
 eiscue,Eiscue,冰砌鵝
 eiscue_ice,Eiscue (Ice),冰砌鵝 結凍頭
 eiscue_noice,Eiscue (Noice),冰砌鵝 解凍頭
-indeedee,Indeedee,愛管侍
 indeedee_female,Indeedee (Female),愛管侍 雌性
 indeedee_male,Indeedee (Male),愛管侍 雄性
 morpeko_full_belly,Morpeko (Full Belly),莫魯貝可 滿腹花紋
@@ -1568,10 +1640,6 @@ smoliv,Smoliv,迷你芙
 dolliv,Dolliv,奧利紐
 arboliva,Arboliva,奧利瓦
 squawkabilly,Squawkabilly,怒鸚哥
-squawkabilly_blue,Squawkabilly_blue,怒鸚哥 藍
-squawkabilly_green,Squawkabilly_green,怒鸚哥 綠
-squawkabilly_white,Squawkabilly_white,怒鸚哥 白
-squawkabilly_yellow,Squawkabilly_yellow,怒鸚哥 黃
 nacli,Nacli,鹽石寶
 naclstack,Naclstack,鹽石壘
 garganacl,Garganacl,鹽石巨靈
@@ -1626,11 +1694,8 @@ tatsugiri_stretchy,Tatsugiri (Stretchy),米立龍 平挺
 annihilape,Annihilape,棄世猴
 annihilape_shadow,Annihilape (Shadow),棄世猴 暗影
 clodsire,Clodsire,土王
-clodsiresb,Clodsire,土王sb
 farigiraf,Farigiraf,奇麒麟
 dudunsparce,Dudunsparce,土龍節節
-dudunsparce_three,Dudunsparce_three,土龍節節 三節
-dudunsparce_two,Dudunsparce_two,土龍節節 二節
 kingambit,Kingambit,仆斬將軍
 greattusk,Greattusk,雄偉牙
 screamtail,Screamtail,吼叫尾
@@ -1659,3 +1724,20 @@ koraidon,Koraidon,故勒頓
 koraidon_apex,Koraidon_apex,故勒頓 完全
 miraidon,Miraidon,密勒頓
 miraidon_ultimate,Miraidon_ultimate,密勒頓 完全
+walking_wake,Walking Wake,波盪水
+iron_leaves,Iron Leaves,鐵斑葉
+dipplin,Dipplin,裹蜜蟲
+poltchageist,Poltchageist,斯魔茶
+sinistcha,Sinistcha,來悲粗茶
+okidogi,Okidogi,夠讚狗
+munkidori,Munkidori,願增猿
+fezandipiti,Fezandipiti,吉雉雞
+ogerpon,Ogerpon,厄鬼椪
+archaludon,Archaludon,鋁鋼橋龍
+hydrapple,Hydrapple,蜜集大蛇
+gouging_fire,Gouging Fire,破空焰
+raging_bolt,Raging Bolt,猛雷鼓
+iron_boulder,Iron Boulder,鐵磐岩
+iron_crown,Iron Crown,鐵頭殼
+terapagos,Terapagos,太樂巴戈斯
+pecharunt,Pecharunt,桃歹郎
